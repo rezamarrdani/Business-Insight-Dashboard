@@ -208,3 +208,80 @@ body {
     border-bottom: 1px solid #ddd;
 
 }
+
+
+/* Application Layout */
+
+.app-container {
+
+    display:flex;
+
+    min-height:100vh;
+
+}
+
+.sidebar {
+
+    width:250px;
+
+    background:white;
+
+    padding:25px;
+
+}
+
+.dashboard-content {
+
+    flex:1;
+
+    padding:30px;
+
+}
+
+
+/* Sidebar */
+
+.sidebar {
+
+    width: 250px;
+
+    min-height: 100vh;
+
+    background: white;
+
+    padding: 25px;
+
+}
+
+
+.sidebar h2 {
+
+    margin-bottom: 40px;
+
+}
+
+
+.sidebar a {
+
+    display: block;
+
+    text-decoration: none;
+
+    color: #222;
+
+    padding: 12px;
+
+    margin-bottom: 10px;
+
+}
+
+
+/* Main Content */
+
+.dashboard-content {
+
+    flex: 1;
+
+    padding: 30px;
+
+}
