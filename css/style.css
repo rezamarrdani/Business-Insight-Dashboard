@@ -1,13 +1,16 @@
 /* Global Styles */
 
 * {
+
     box-sizing: border-box;
+
 }
+
 
 
 body {
 
-    font-family: Arial, sans-serif;
+    font-family: "Tahoma", sans-serif;
 
     margin: 0;
 
@@ -15,7 +18,10 @@ body {
 
     color: #222;
 
+    direction: rtl;
+
 }
+
 
 
 /* Hero Section */
@@ -31,6 +37,7 @@ body {
 }
 
 
+
 .hero h1 {
 
     font-size: 48px;
@@ -40,11 +47,25 @@ body {
 }
 
 
+
 .hero h2 {
 
     font-size: 24px;
 
+    margin-bottom: 20px;
+
 }
+
+
+
+.hero p {
+
+    font-size: 18px;
+
+    color: #555;
+
+}
+
 
 
 .hero button {
@@ -55,9 +76,14 @@ body {
 
     border: none;
 
+    border-radius: 8px;
+
     cursor: pointer;
 
+    font-size: 16px;
+
 }
+
 
 
 /* Features Section */
@@ -69,6 +95,7 @@ body {
     text-align: center;
 
 }
+
 
 
 /* Feature Cards Layout */
@@ -84,6 +111,7 @@ body {
     flex-wrap: wrap;
 
 }
+
 
 
 /* Feature Card */
