@@ -127,3 +127,84 @@ body {
     border-radius: 10px;
 
 }
+
+
+/* Dashboard Header */
+
+.dashboard-header {
+
+    text-align: center;
+
+    padding: 40px 20px;
+
+}
+
+
+
+/* Statistics Cards */
+
+.stats {
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 20px;
+
+    flex-wrap: wrap;
+
+    padding: 20px;
+
+}
+
+
+
+.stat-card {
+
+    background: white;
+
+    width: 250px;
+
+    padding: 25px;
+
+    border-radius: 12px;
+
+    text-align: center;
+
+}
+
+
+
+.stat-card p {
+
+    font-size: 22px;
+
+    font-weight: bold;
+
+}
+
+
+
+/* Transactions */
+
+.transactions {
+
+    background: white;
+
+    margin: 30px;
+
+    padding: 25px;
+
+    border-radius: 12px;
+
+}
+
+
+
+.transaction-list p {
+
+    padding: 10px;
+
+    border-bottom: 1px solid #ddd;
+
+}
